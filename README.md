@@ -29,3 +29,19 @@ Quick test
 ./scripts/run-test.sh http://127.0.0.1:5000
 ```
 Note: `deepface` can require large ML dependencies; install carefully if you only need a placeholder. Modify `database.py` to connect to your MongoDB.
+
+---
+
+## DeepFace troubleshooting (Render / production)
+
+- Use the **Docker** environment in Render for reliable system dependencies (OpenCV, ffmpeg, etc.).
+- Ensure instance memory is >= 1–2GB; DeepFace/TensorFlow can fail on very small plans.
+- After deploy, call the diagnostics endpoint to see module availability and versions:
+
+  `GET https://<your-service>/diagnostics`
+
+  It returns `deepface.available`, `deepface.error`, TensorFlow/OpenCV versions, and useful env values.
+
+- If `deepface` is not available or `tensorflow` import fails, check the **build logs** for pip install / wheel errors and increase instance memory or switch to Docker.
+- For persistent failure, you can disable DeepFace locally and still use EEG-only mode — the UI will show `Neutral` when face analysis is unavailable.
+

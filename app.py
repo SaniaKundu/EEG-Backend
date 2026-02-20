@@ -41,6 +41,49 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 def home():
     return "Mood Detection Backend Running"
 
+
+@app.route('/diagnostics', methods=['GET'])
+def diagnostics():
+    """Return runtime diagnostics to help debug deployments (DeepFace, TF, OpenCV, env)."""
+    import sys
+    import platform
+
+    info = {
+        'python_version': sys.version.splitlines()[0],
+        'platform': platform.platform(),
+        'env_PORT': os.environ.get('PORT'),
+        'env_FLASK_DEBUG': os.environ.get('FLASK_DEBUG'),
+    }
+
+    # DeepFace/module info (uses helper in face_emotion if available)
+    try:
+        import face_emotion as fe
+        info['deepface'] = fe.get_deepface_info()
+    except Exception as e:
+        info['deepface'] = {'available': False, 'error': f'face_emotion import failed: {e}'}
+
+    # Also attempt direct imports to show exact errors/versions
+    try:
+        import deepface as _df
+        info['deepface']['deepface_import'] = getattr(_df, '__version__', 'ok')
+    except Exception as e:
+        info['deepface']['deepface_import'] = str(e)
+
+    try:
+        import tensorflow as tf
+        info['tensorflow'] = getattr(tf, '__version__', str(tf))
+    except Exception as e:
+        info['tensorflow'] = str(e)
+
+    try:
+        import cv2
+        info['opencv'] = getattr(cv2, '__version__', str(cv2))
+    except Exception as e:
+        info['opencv'] = str(e)
+
+    return jsonify(info)
+
+
 @app.route("/detect-mood", methods=["POST"])
 def detect_mood():
 
