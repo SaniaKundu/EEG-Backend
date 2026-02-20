@@ -28,7 +28,7 @@ else:
         "http://localhost:5175", "http://127.0.0.1:5175",
         "http://localhost:5176", "http://127.0.0.1:5176",
         "http://localhost:5177", "http://127.0.0.1:5177",
-        "https://emotion-detection-7y82.vercel.app",
+        "https://eeg-frontend.vercel.app",
     ]
 
 CORS(app, origins=origins, supports_credentials=True)
