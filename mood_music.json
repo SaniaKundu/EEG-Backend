@@ -1,0 +1,87 @@
+{
+  "happy": [
+    {"name": "Happy - Pharrell Williams", "url": "https://www.youtube.com/watch?v=ZbZSe6N_BXs"},
+    {"name": "Can't Stop the Feeling! - Justin Timberlake", "url": "https://www.youtube.com/watch?v=ru0K8uYEZWw"},
+    {"name": "Uptown Funk - Bruno Mars", "url": "https://www.youtube.com/watch?v=OPf0YbXqDm0"},
+    {"name": "Shake It Off - Taylor Swift", "url": "https://www.youtube.com/watch?v=nfWlot6h_JM"},
+    {"name": "Walking on Sunshine - Katrina & The Waves", "url": "https://www.youtube.com/watch?v=iPUmE-tne5U"},
+    {"name": "Good as Hell - Lizzo", "url": "https://www.youtube.com/watch?v=SmbmeOgWsqE"},
+    {"name": "Best Day of My Life - American Authors", "url": "https://www.youtube.com/watch?v=Y66j_BUCBMY"},
+    {"name": "On Top of the World - Imagine Dragons", "url": "https://www.youtube.com/watch?v=w5tWYmIOWGk"}
+  ],
+  "hindi_happy": [
+    {"name": "Badtameez Dil - Yeh Jawaani Hai Deewani (Hindi)", "url": "https://www.youtube.com/results?search_query=Badtameez+Dil+official+video"},
+    {"name": "Gallan Goodiyaan - Dil Dhadakne Do (Hindi)", "url": "https://www.youtube.com/results?search_query=Gallan+Goodiyaan+official+video"},
+    {"name": "London Thumakda - Queen (Hindi)", "url": "https://www.youtube.com/results?search_query=London+Thumakda+official+video"},
+    {"name": "Kar Gayi Chull - Kapoor & Sons (Hindi)", "url": "https://www.youtube.com/results?search_query=Kar+Gayi+Chull+official+video"}
+  ],
+  "sad": [
+    {"name": "Someone Like You - Adele", "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"},
+    {"name": "Fix You - Coldplay", "url": "https://www.youtube.com/watch?v=k4V3Mo61fJM"},
+    {"name": "Let Her Go - Passenger", "url": "https://www.youtube.com/watch?v=RBumgq5yVrA"},
+    {"name": "Say Something - A Great Big World", "url": "https://www.youtube.com/watch?v=-2U0Ivkn2Ds"},
+    {"name": "The Night We Met - Lord Huron", "url": "https://www.youtube.com/watch?v=KtlgYxa6BMU"},
+    {"name": "Hurt - Johnny Cash", "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI"},
+    {"name": "Mad World - Gary Jules", "url": "https://www.youtube.com/watch?v=4N3N1MlvVc4"},
+    {"name": "Skinny Love - Bon Iver", "url": "https://www.youtube.com/watch?v=ssdgFoHLwnk"}
+  ],
+  "hindi_sad": [
+    {"name": "Channa Mereya - Ae Dil Hai Mushkil (Hindi)", "url": "https://www.youtube.com/results?search_query=Channa+Mereya+official+video"},
+    {"name": "Agar Tum Saath Ho - Tamasha (Hindi)", "url": "https://www.youtube.com/results?search_query=Agar+Tum+Saath+Ho+official+video"},
+    {"name": "Tadap Tadap Ke - Hum Dil De Chuke Sanam (Hindi)", "url": "https://www.youtube.com/results?search_query=Tadap+Tadap+Ke+official+video"}
+  ],
+  "angry": [
+    {"name": "Weightless - Marconi Union", "url": "https://www.youtube.com/watch?v=UfcAVejslrU"},
+    {"name": "Breathe Me - Sia", "url": "https://www.youtube.com/watch?v=SFGvmrJ5rjM"},
+    {"name": "Calm Down - Rema", "url": "https://www.youtube.com/watch?v=WcIcVapfqXw"},
+    {"name": "Better Days - OneRepublic", "url": "https://www.youtube.com/watch?v=2BjEqMHJEsY"},
+    {"name": "Here Comes the Sun - The Beatles", "url": "https://www.youtube.com/watch?v=KQetemT1sWc"},
+    {"name": "Three Little Birds - Bob Marley", "url": "https://www.youtube.com/watch?v=zaGUr6wzyT8"},
+    {"name": "What a Wonderful World - Louis Armstrong", "url": "https://www.youtube.com/watch?v=A3yCcXgbKrE"},
+    {"name": "Peaceful Easy Feeling - Eagles", "url": "https://www.youtube.com/watch?v=NjofshOBV5s"}
+  ],
+  "hindi_angry": [
+    {"name": "Malang - Title Track (Hindi)", "url": "https://www.youtube.com/results?search_query=Malang+title+song+official+video"},
+    {"name": "Jai Ho! - Slumdog Millionaire (Hindi upbeat)", "url": "https://www.youtube.com/results?search_query=Jai+Ho+official+video"}
+  ],
+  "fear": [
+    {"name": "Brave - Sara Bareilles", "url": "https://www.youtube.com/watch?v=QUQsqBqxoR4"},
+    {"name": "Stronger - Kelly Clarkson", "url": "https://www.youtube.com/watch?v=Xn676-fLq7I"},
+    {"name": "Fight Song - Rachel Platten", "url": "https://www.youtube.com/watch?v=xo1VInw-SKc"},
+    {"name": "Eye of the Tiger - Survivor", "url": "https://www.youtube.com/watch?v=btPJPFnesV4"},
+    {"name": "Roar - Katy Perry", "url": "https://www.youtube.com/watch?v=CevxZvSJLk8"},
+    {"name": "Don't Stop Me Now - Queen", "url": "https://www.youtube.com/watch?v=HgzGwKwLmgM"},
+    {"name": "Unwritten - Natasha Bedingfield", "url": "https://www.youtube.com/watch?v=b7k0a5hYnSI"},
+    {"name": "Rise Up - Andra Day", "url": "https://www.youtube.com/watch?v=FBuIBaDSOa4"}
+  ],
+  "hindi_fear": [
+    {"name": "Zinda - Bhaag Milkha Bhaag (Hindi inspirational)", "url": "https://www.youtube.com/results?search_query=Zinda+Bhaag+Milkha+Bhaag+official+video"},
+    {"name": "Lakshya - Title Track (Hindi motivational)", "url": "https://www.youtube.com/results?search_query=Lakshya+title+song+official+video"}
+  ],
+  "calm": [
+    {"name": "Lo-fi Chill Beats", "url": "https://www.youtube.com/watch?v=5qap5aO4i9A"},
+    {"name": "Clair de Lune - Debussy", "url": "https://www.youtube.com/watch?v=WNcsUNKlAKw"},
+    {"name": "Gymnopédie No.1 - Erik Satie", "url": "https://www.youtube.com/watch?v=S-Xm7s9eGxU"},
+    {"name": "Sunset Lover - Petit Biscuit", "url": "https://www.youtube.com/watch?v=wuCK-oiE3rM"},
+    {"name": "Snowfall - Øneheart & Reidenshi", "url": "https://www.youtube.com/watch?v=2LKhgMXGuhY"},
+    {"name": "River Flows in You - Yiruma", "url": "https://www.youtube.com/watch?v=7maJOI3QMu0"},
+    {"name": "Watermark - Enya", "url": "https://www.youtube.com/watch?v=NO5tb20qQnA"},
+    {"name": "Experience - Ludovico Einaudi", "url": "https://www.youtube.com/watch?v=_VONMkKkdf4"}
+  ],
+  "hindi_calm": [
+    {"name": "Kun Faya Kun - Rockstar (Hindi Sufi)", "url": "https://www.youtube.com/results?search_query=Kun+Faya+Kun+official+video"},
+    {"name": "Agar Tum Saath Ho - Tamasha (soft version) (Hindi)", "url": "https://www.youtube.com/results?search_query=Agar+Tum+Saath+Ho+live+acoustic"},
+    {"name": "Samjhawan - Humpty Sharma Ki Dulhania (Hindi soft)", "url": "https://www.youtube.com/results?search_query=Samjhawan+official+video"}
+  ],
+  "neutral": [
+    {"name": "Lo-fi Study Beats", "url": "https://www.youtube.com/watch?v=DWcJFNfaw9c"},
+    {"name": "Electric Feel - MGMT", "url": "https://www.youtube.com/watch?v=MmZexg8sxyk"},
+    {"name": "Lemon Tree - Fools Garden", "url": "https://www.youtube.com/watch?v=bCDIt50hRDs"},
+    {"name": "Riptide - Vance Joy", "url": "https://www.youtube.com/watch?v=uJ_1HMAGb4k"},
+    {"name": "Budapest - George Ezra", "url": "https://www.youtube.com/watch?v=VHrLPs3_1Fs"},
+    {"name": "Banana Pancakes - Jack Johnson", "url": "https://www.youtube.com/watch?v=OkyrIRyrRdY"},
+    {"name": "Sunday Morning - Maroon 5", "url": "https://www.youtube.com/watch?v=S2Cti12XBw4"},
+    {"name": "Here Comes the Sun - The Beatles", "url": "https://www.youtube.com/watch?v=KQetemT1sWc"}
+  ]
+
+}
