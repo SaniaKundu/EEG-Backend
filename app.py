@@ -20,9 +20,19 @@ cors_env = os.getenv("CORS_ORIGINS")
 if cors_env:
     origins = [o.strip() for o in cors_env.split(",") if o.strip()]
 else:
-    origins = ["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:5174", "http://127.0.0.1:5174", "http://localhost:5175", "http://127.0.0.1:5175", "http://localhost:5176", "http://127.0.0.1:5176", "http://localhost:5177", "http://127.0.0.1:5177","https://emotion-detection-7y82.vercel.app"]
+    # Default development origins — includes Vite/CRA ports (3000 and 5173+)
+    origins = [
+        "http://localhost:5173", "http://127.0.0.1:5173",
+        "http://localhost:3000", "http://127.0.0.1:3000",
+        "http://localhost:5174", "http://127.0.0.1:5174",
+        "http://localhost:5175", "http://127.0.0.1:5175",
+        "http://localhost:5176", "http://127.0.0.1:5176",
+        "http://localhost:5177", "http://127.0.0.1:5177",
+        "https://emotion-detection-7y82.vercel.app",
+    ]
 
 CORS(app, origins=origins, supports_credentials=True)
+print("CORS allowed origins:", origins)
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
